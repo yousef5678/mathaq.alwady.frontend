@@ -278,7 +278,10 @@ body {
 }
 
 .desktop-version .layer-19-copy-2-holder {
+  align-items: center;
+  justify-content: center;
   height: 240px;
+  display: flex;
   left: 0;
   position: absolute;
   top: 0;
@@ -287,9 +290,6 @@ body {
 }
 
 .desktop-version .text {
-  left: 15px;
-  position: absolute;
-  top: 8px;
   width: 609px;
   direction: rtl;
   font-weight: bold;

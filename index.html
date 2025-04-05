@@ -15,27 +15,6 @@
         href="https://fonts.googleapis.com/css?family=Oswald:200,300,regular,500,600,700&amp;subset=cyrillic,cyrillic-ext,latin,latin-ext,vietnamese">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
-<script>
-    // في ملف Home.js أو App.js
-    useEffect(() => {
-        const setViewportScale = () => {
-            const viewport = document.querySelector("meta[name=viewport]");
-            if (window.innerWidth <= 620) { // للجوال فقط
-                viewport.setAttribute('content', 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0');
-            } else {
-                viewport.setAttribute('content', 'width=device-width, initial-scale=1.0');
-            }
-        };
-
-        setViewportScale();
-        window.addEventListener('resize', setViewportScale);
-
-        return () => {
-            window.removeEventListener('resize', setViewportScale);
-        };
-    }, []);
-</script>
-
 <body>
     <div id="root"></div>
 </body>

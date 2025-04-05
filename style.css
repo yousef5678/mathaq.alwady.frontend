@@ -104,15 +104,6 @@ time {
   display: block;
 }
 
-html,
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-}
-
 body {
   line-height: 1;
   color: black;
@@ -826,11 +817,7 @@ body {
   letter-spacing: 3px;
   text-align: center;
 }
-.mobile-version {
-  width: 100%;
-  max-width: 100%;
-  overflow-x: hidden;
-}
+
 .mobile-version .global_container_ {
   float: none;
   height: 3165px;
@@ -1390,39 +1377,6 @@ body {
 .mobile-version .layer-199 {
   position: absolute;
   top: 345px;
-}
-
-@media only screen and (max-width: 620px) {
-  .mobile-version .global_container_ {
-    width: 100%;
-    min-width: 100%;
-  }
-  
-  .mobile-version .section1,
-  .mobile-version .section2,
-  .mobile-version .section3,
-  .mobile-version .section4,
-  .mobile-version .section5 {
-    width: 100%;
-    max-width: 100%;
-  }
-  
-  /* تعديل أحجام الخطوط لتناسب الشاشات الصغيرة */
-  .mobile-version .text-5,
-  .mobile-version .text-6,
-  .mobile-version .text-7,
-  .mobile-version .text-8,
-  .mobile-version .text-9 {
-    font-size: 1.2rem;
-    line-height: 1.5;
-  }
-  
-  /* تعديل أحجام المدخلات */
-  .mobile-version .layer-2 {
-    width: 90%;
-    right: 5%;
-    left: 5%;
-  }
 }
 
 textarea {
